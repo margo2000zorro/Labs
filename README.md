@@ -26,7 +26,7 @@
  - ACL не действует на трафик, сгенерированный самим маршрутизатором.
  - Адреса сетей записываются в ACL с wildcard маской
 
- Результат работы в формате .pka можно скачать по [ссылке](https://github.com/margo2000zorro/Labs/blob/main/%D0%95%D1%84%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BA%D0%BE%20%D0%9B%D0%A05.pka), описание в формате .pdf доступно [здесь](https://github.com/margo2000zorro/Labs/blob/main/%D0%95%D1%84%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BA%D0%BE%20%D0%9B%D0%A05.docx)
+ Результат работы в формате .pka можно скачать по [ссылке](https://github.com/margo2000zorro/Labs/blob/main/%D0%95%D1%84%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BA%D0%BE%20%D0%9B%D0%A05.pka), описание в формате .docx доступно [здесь](https://github.com/margo2000zorro/Labs/blob/main/%D0%95%D1%84%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BA%D0%BE%20%D0%9B%D0%A05.docx)
 
  ## ✅ Экзаменационные билет
 
