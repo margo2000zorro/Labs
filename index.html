@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Сайт Ефременко Маргариты</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <header>
+      <div id="logo" onclick="slowScroll('#top')">
+        <span>Интернет-технологии</span>
+      </div>
+      <div id="about">
+        <a href="#" title="Лабораторные" onclick="slowScroll('#top')">Лабораторные</a>
+        <a href="#" onclick="slowScroll('#lab1')" title="Лабораторная работа №1">Лабораторная работа №1</a>
+        <a href="#" onclick="slowScroll('#lab2')" title="Лабораторная работа №2">Лабораторная работа №2</a>
+        <a href="#" onclick="slowScroll('#lab3')" title="Лабораторная работа №3">Лабораторная работа №3</a>
+      </div>
+    </header>
+
+    <div id="top">
+      <h1>Лабораторные работы по Интернет-технологиям</h1>
+    </div>
+
+    <div id="lab1">
+      <div class="intro">
+        <h1>Лабораторная работа №1</h1>
+      </div>
+      <div class="text">
+        <h3>Знакомство с основными инструментами и нотациями</h3>
+        <span>GitHub — крупнейший веб-сервис для хостинга IT-проектов и их совместной разработки. В рамках данной лабораторной работы необходимо зарегистрироваться на github.com, создать личный репозиторий, создать личную веб-страницу с описанием выполнения лабораторных работ, разместить код веб-страницы в репозитории, а также разместить ее на хостинге.</span>
+        <h3>Ссылки:</h3>
+        <a href = "https://github.com/kamneva/Laboratory_InternetTechnologies/tree/site">Исходный код страницы</a>
+        <a href = "https://kamneva.github.io/Laboratory_InternetTechnologies/">Landing Page</a>
+      </div>
+    </div>
+
+    <div id="lab2">
+      <div class="intro">
+        <h1>Лабораторная работа №2</h1>
+      </div>
+      <div class="text">
+        <h3>IT Проект</h3>
+        <span>В рамках данной лабораторной работы необходимо в команде разработать мобильное приложение "StankinFood" с возможностью оформления заказа в столовой старого или кафе нового корпуса СТАНКИНа и создать Landing page с описанием самого проекта.</span>
+        <h3>Ссылки:</h3>
+        <a href = "https://github.com/margo2000zorro/StankinFood/tree/site">Исходный код страницы</a>
+        <a href = "https://kamneva.github.io/StankinFood/">Landing Page</a>
+      </div>
+    </div>
+
+    <div id="lab3">
+      <div class="intro">
+        <h1>Лабораторная работа №3</h1>
+      </div>
+      <div class="text">
+        <h3>Работа с Сisco Packet Tracer</h3>
+        <span>В рамках данной лабораторной работы необходимо настроить сеть в Сisco Packet Tracer. Packet Tracer — симулятор сети передачи данных, выпускаемый фирмой Cisco Systems. Позволяет делать работоспособные модели сети, настраивать маршрутизаторы и коммутаторы, взаимодействовать между несколькими пользователями. Лабораторная работа выполняется в среде Cisco Packet Tracer в файле-сценарии формата pka. Сценарий содержит логическую топологию в виде составной сети, моделирующей корпоративную сеть условного предприятия, подключенную к сети Интернет.</span>
+        <h3>Ссылки:</h3>
+        <a href = "https://github.com/margo2000zorro/Labs/blob/main/%D0%95%D1%84%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BA%D0%BE%20%D0%9B%D0%A05.docx">Описание работы</a>
+        <a href = "https://github.com/margo2000zorro/Labs#-лабораторная-работа--3">Репозиторий</a>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+      function slowScroll(id){
+        $('html, body').animate({
+          scrollTop: $(id).offset().top
+        }, 500);
+      }
+
+      $(document).on("scroll", function() {
+        if($(window).scrollTop() === 0)
+         $("header").removeClass("fixed");
+        else
+         $("header").attr("class","fixed");
+
+      })
+    </script>
+  </body>
+</html>
