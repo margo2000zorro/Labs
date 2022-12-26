@@ -42,5 +42,5 @@
  [билет №3](https://github.com/stankin/inet-2022/wiki/exam03)
  
  История изменений экзаменационного билета доступна по ссылке:
-[изменения в билете №3],
-[подробнее]
+[изменения в билете №3](https://github.com/stankin/inet-2022/wiki/exam03/_history),
+[подробнее](https://github.com/stankin/inet-2022/wiki/exam03/_compare/3c63cb67d49cb84be1d45a9639155fc680dcfd87...a7bad78a5563bf95e871e40e1fcf9c3674b80fa6)
